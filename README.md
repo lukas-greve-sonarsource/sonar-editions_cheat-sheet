@@ -1,2 +1,13 @@
-# sonar-editions_cheat-sheet
-A table to easily compare Sonar products features across editions
+# Cheat sheet on Sonar products across editions
+
+[A table](/sonar-editions_cheat-sheet.md) to easily compare Sonar products features across editions.
+
+> This is a work in progress.
+
+## How to use
+
+[Pandoc](https://pandoc.org/), a universal document converter, can be used to convert this document to other formats, using the following command (replace *.odt* with other extension, such as *.xlsx*, *.docx*, *.pdf*, etc):
+
+```
+pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.odt
+```
