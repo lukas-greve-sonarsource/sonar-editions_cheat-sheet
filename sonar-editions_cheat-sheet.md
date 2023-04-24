@@ -3,14 +3,17 @@
 |     | [**SonarLint**](https://www.sonarsource.com/products/sonarlint/) | SQ CE | SQ DE | SQ EE | SQ DCE | SC |
 | --- | --- | --- | --- | --- | --- | --- |
 | *Supported languages* | Varies | 19[^1]  | 27[^2]  | 32[^3]  | 32[^3]  | 27[^2]  |
-| *Analysis of multiple branches* | **Yes** | No | **Yes** | **Yes** | **Yes<br>** | **Yes** |
+| *Detect bugs & vulnerabilities* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| *Detect security hotspots* | No | No | **Yes** | **Yes** | **Yes** | **Yes** |
+| *Detect advanced vulnerabilities* | No | No | **Yes** | **Yes** | **Yes** | **Yes** |
+| *Track code smells & fix your technical debt* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| *Code quality metrics & history* | No | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
+| *Secret detection* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*PR analysis*](https://docs.sonarqube.org/latest/analyzing-source-code/pull-request-analysis/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | *Monorepo support* | **Yes** | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*DevOps platforms integration*](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/) | N/A | **Yes** | **Yes** | **Yes**[^4] | **Yes** | **Yes**[^5] |
 | [*Automatic analysis*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes** | No | No | No | No | No |
-| *Secret detection* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| *Detection of advanced vulnerabilities* | No | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*Security engine customization*](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*Security reports*](https://docs.sonarqube.org/latest/user-guide/security-reports/) | N/A | No | No | **Yes** | **Yes** | No |
@@ -30,7 +33,6 @@
 * SQ EE stands for SonarQube Enterprise Edition (SQ EE)
 * SQ DCE stands for SonarQube Data Center Edition (SQ DE)
 * SC stands for SonarCloud (SC)
-
 
 [^1]: [Java](https://www.sonarsource.com/knowledge/languages/java/), [C#](https://www.sonarsource.com/knowledge/languages/kotlin/), [JavaScript](https://www.sonarsource.com/knowledge/languages/js/), [TypeScript](https://www.sonarsource.com/knowledge/languages/ts/), [CloudFormation](https://www.sonarsource.com/knowledge/languages/cloudformation/), [Terraform](https://www.sonarsource.com/knowledge/languages/terraform/), [Kotlin](https://www.sonarsource.com/knowledge/languages/kotlin/), [Kubernetes](https://www.sonarsource.com/knowledge/languages/kubernetes/), [Docker](https://www.sonarsource.com/knowledge/languages/docker/), [Ruby](https://www.sonarsource.com/knowledge/languages/ruby/), [Go](https://www.sonarsource.com/knowledge/languages/go/), [Scala](https://www.sonarsource.com/knowledge/languages/scala/), [Flex](https://www.sonarsource.com/knowledge/languages/flex/), [Python](https://www.sonarsource.com/knowledge/languages/python/), [PHP](https://www.sonarsource.com/knowledge/languages/php/), [HTML](https://www.sonarsource.com/knowledge/languages/html/), [Cascading Style Sheets (CSS)](https://www.sonarsource.com/knowledge/languages/css/), [Extensible Markup Language (XML)](https://www.sonarsource.com/knowledge/languages/xml/) & [VB.Net](https://www.sonarsource.com/knowledge/languages/vb-net/)
 [^2]: CE-supported languages and [C](https://www.sonarsource.com/knowledge/languages/c/), [C++](https://www.sonarsource.com/knowledge/languages/cpp/), [C#](https://www.sonarsource.com/knowledge/languages/csharp/), [Objective-C](https://www.sonarsource.com/knowledge/languages/objective-c/), [Swift](https://www.sonarsource.com/knowledge/languages/swift/), [Advanced Business Application Programming (ABAP)](https://www.sonarsource.com/knowledge/languages/abap/),[Procedural Language for SQL (PL/SQL)](https://www.sonarsource.com/knowledge/languages/pl-sql/) & [Transact-SQL (T-SQL)](https://www.sonarsource.com/knowledge/languages/t-sql/)
