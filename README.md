@@ -4,10 +4,11 @@
 
 > This is a work in progress. It targets 10.0
 
-## How to use
+## How to convert
 
-[Pandoc](https://pandoc.org/), a universal document converter, can be used to convert this document to other formats, using the following command (replace *.odt* with other extension, such as *.xlsx*, *.docx*, *.pdf*, etc):
+[Pandoc](https://pandoc.org/), a universal document converter, can be used to convert [the table](/sonar-editions_cheat-sheet.md) to other formats, using the following command (replace *.odt* with other extension, such as *.xlsx*, *.docx*, *.pdf*, etc):
 
 ```
 pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.odt
 ```
+
