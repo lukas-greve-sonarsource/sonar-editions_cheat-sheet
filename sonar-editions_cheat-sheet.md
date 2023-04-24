@@ -22,6 +22,7 @@
 | [*Project grouping*](https://docs.sonarqube.org/latest/user-guide/applications/) | N/A | No | **Yes** | **Yes** | **Yes** | No |
 | [*Project migration*](https://docs.sonarqube.org/latest/instance-administration/project-move/#how-to-export) | N/A | No  | **Yes** | **Yes** | **Yes** | No |
 | [*LDAP & SAML*](https://docs.sonarqube.org/latest/instance-administration/authentication/saml/overview/) | N/A | **Yes** | **Yes** | **Yes** | **Yes** | No |
+| [*Staging licenses*](https://docs.sonarqube.org/latest/instance-administration/license-administration/#staging-licenses) | N/A | No | No | **Yes**[^6] | **Yes**[^7] | No |
 | [*Plugins support*](https://docs.sonarqube.org/latest/setup-and-upgrade/install-a-plugin/) | N/A | **Yes** | **Yes** | **Yes** | **Yes** | No |
 | [*Self-managed instance*](https://docs.sonarqube.org/latest/setup-and-upgrade/install-the-server/) | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | No |
 | [*Highly-available*](https://docs.sonarqube.org/latest/setup-and-upgrade/install-the-server-as-a-cluster/) | N/A | No | No | No | **Yes** | **Yes** |

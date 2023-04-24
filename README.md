@@ -24,8 +24,8 @@ pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.odt
 
 > Replace *.odt* with other extension, such as *.xlsx*, *.docx*, *.pdf*, etc
 
-* Use the following loop to output to three different formats at once:
+* Use the following command to output to multiple formats at once:
 
 ``` 
-for extensions in odt html pdf; do pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.$extensions; done;
+for extensions in odt html pdf ods; do pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.$extensions; done;
 ```
