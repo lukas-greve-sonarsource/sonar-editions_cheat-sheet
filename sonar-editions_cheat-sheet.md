@@ -10,7 +10,7 @@
 | [*Automatic analysis*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes** | No | No | No | No | No |
 | *Secret detection* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| *Detection of advanced vulnerabilities* | No | No | **Yes** | **Yes** | **Yes<br>** | **Yes** |
+| *Detection of advanced vulnerabilities* | No | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*Security engine customization*](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*Security reports*](https://docs.sonarqube.org/latest/user-guide/security-reports/) | N/A | No | No | **Yes** | **Yes** | No |
