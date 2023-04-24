@@ -1,8 +1,8 @@
-# Cheat sheet on Sonar products across editions
+# Cheat sheet for Sonar products
 
 [A table](/sonar-editions_cheat-sheet.md) to easily compare Sonar products features across editions.
 
-> This is a work in progress.
+> This is a work in progress. It targets 10.0
 
 ## How to use
 
