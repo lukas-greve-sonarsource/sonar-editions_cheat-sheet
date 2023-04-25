@@ -13,13 +13,14 @@
 | [*DevOps platforms integration*](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/) | N/A | **Yes** | **Yes** | **Yes**[^4] | **Yes** | **Yes**[^5] |
 | [*Automatic analysis (AutoScan)*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes**[^12] | N/A | N/A | N/A | N/A | N/A |
+| *Taint Analysis (Security SonarAnalyzer)*[^13] | No | No | Yes | Yes | Yes | Yes |
 | [*Security engine customization*](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | No | **Yes** | **Yes** | **Yes** |
 | [*Security reports*](https://docs.sonarqube.org/latest/user-guide/security-reports/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Portfolios management*](https://docs.sonarqube.org/latest/user-guide/portfolios/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Regulatory reports*](https://docs.sonarqube.org/latest/project-administration/pdf-reports/#regulatory-reports) | N/A | No | No | Yes | **Yes** | No  |
 | [*Audit logs*](https://docs.sonarqube.org/latest/instance-administration/audit-logs/) | N/A | No | No | **Yes** | **Yes** | No |
-| [*Project grouping*](https://docs.sonarqube.org/latest/user-guide/applications/) | N/A | No | **Yes** | **Yes** | **Yes** | No |
+| [*Applications*](https://docs.sonarqube.org/latest/user-guide/applications/) | N/A | No | **Yes** | **Yes** | **Yes** | No |
 | [*Project migration*](https://docs.sonarqube.org/latest/instance-administration/project-move/#how-to-export) | N/A | No  | **Yes** | **Yes** | **Yes** | No |
 | [*LDAP & SAML*](https://docs.sonarqube.org/latest/instance-administration/authentication/saml/overview/) | N/A | **Yes** | **Yes** | **Yes** | **Yes** | No |
 | [*Staging licenses*](https://docs.sonarqube.org/latest/instance-administration/license-administration/#staging-licenses) | N/A | No | No | **Yes**[^6] | **Yes**[^7] | No |
@@ -48,3 +49,4 @@
 [^10]: SQ EE Monorepo for [Azure DevOps](https://docs.sonarqube.org/latest/devops-platform-integration/azure-devops-integration/#preventing-pull-request-merges-when-the-quality-gate-fails), [GitLab](https://docs.sonarqube.org/latest/devops-platform-integration/gitlab-integration/#reporting-your-quality-gate-status-in-gitlab), [GitHub](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/#preventing-pull-request-merges-when-the-quality-gate-fails), [Bitbucket Server](https://docs.sonarqube.org/latest/devops-platform-integration/bitbucket-integration/bitbucket-server-integration/) and [Bitbucket Cloud](https://docs.sonarqube.org/latest/devops-platform-integration/bitbucket-integration/bitbucket-cloud-integration/)
 [^11]: [Documentation on SC Monorepo Support](https://docs.sonarcloud.io/advanced-setup/monorepo-support/)monor
 [^12]: Note that analysis takes place only when file is opened in the IDE. SonarLint does not perform any taint analysis but is able to display taint analysis when used in [Connected Mode with SonarQube](https://docs.sonarqube.org/latest/user-guide/sonarlint-connected-mode/).
+[^13]: [Taint analysis](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration) only available for Java, PHP, C#, Python, TypeScript and JavaScript.
