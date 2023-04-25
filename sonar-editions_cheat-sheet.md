@@ -14,7 +14,7 @@
 | [*Automatic analysis (AutoScan)*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes**[^12] | N/A | N/A | N/A | N/A | N/A |
 | [*Security engine customization*](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration/) | N/A | No | No | **Yes** | **Yes** | No |
-| [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
+| [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | No | **Yes** | **Yes** | **Yes** |
 | [*Security reports*](https://docs.sonarqube.org/latest/user-guide/security-reports/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Portfolios management*](https://docs.sonarqube.org/latest/user-guide/portfolios/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Regulatory reports*](https://docs.sonarqube.org/latest/project-administration/pdf-reports/#regulatory-reports) | N/A | No | No | Yes | **Yes** | No  |
