@@ -9,7 +9,7 @@
 | *Code quality metrics & history* | No | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | *Secret detection* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*PR analysis*](https://docs.sonarqube.org/latest/analyzing-source-code/pull-request-analysis/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
-| *Monorepo support* | N/A | No | No | **Yes**[^10] | **Yes** | **Yes** |
+| *Monorepo support* | N/A | No | No | **Yes**[^10] | **Yes** | **Yes**[^11] |
 | [*DevOps platforms integration*](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/) | N/A | **Yes** | **Yes** | **Yes**[^4] | **Yes** | **Yes**[^5] |
 | [*Automatic analysis*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes** | No | No | No | No | No |
