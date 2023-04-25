@@ -13,12 +13,12 @@
 | [*DevOps platforms integration*](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/) | N/A | **Yes** | **Yes** | **Yes**[^4] | **Yes** | **Yes**[^5] |
 | [*Automatic analysis (AutoScan)*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes**[^12] | N/A | N/A | N/A | N/A | N/A |
-| *Taint Analysis (Security SonarAnalyzer)*[^13] | No | No | Yes | Yes | Yes | Yes |
+| *Taint Analysis (Security SonarAnalyzer)*[^13] | No | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*Security engine customization*](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | No | **Yes** | **Yes** | **Yes** |
 | [*Security reports*](https://docs.sonarqube.org/latest/user-guide/security-reports/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Portfolios management*](https://docs.sonarqube.org/latest/user-guide/portfolios/) | N/A | No | No | **Yes** | **Yes** | No |
-| [*Regulatory reports*](https://docs.sonarqube.org/latest/project-administration/pdf-reports/#regulatory-reports) | N/A | No | No | Yes | **Yes** | No  |
+| [*Regulatory reports*](https://docs.sonarqube.org/latest/project-administration/pdf-reports/#regulatory-reports) | N/A | No | No | **Yes** | **Yes** | No  |
 | [*Audit logs*](https://docs.sonarqube.org/latest/instance-administration/audit-logs/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Applications*](https://docs.sonarqube.org/latest/user-guide/applications/) | N/A | No | **Yes** | **Yes** | **Yes** | No |
 | [*Project migration*](https://docs.sonarqube.org/latest/instance-administration/project-move/#how-to-export) | N/A | No  | **Yes** | **Yes** | **Yes** | No |
