@@ -11,8 +11,8 @@
 | [*PR analysis*](https://docs.sonarqube.org/latest/analyzing-source-code/pull-request-analysis/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | *Monorepo support* | N/A | No | No | **Yes**[^10] | **Yes** | **Yes**[^11] |
 | [*DevOps platforms integration*](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/) | N/A | **Yes** | **Yes** | **Yes**[^4] | **Yes** | **Yes**[^5] |
-| [*Automatic analysis*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
-| [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes** | No | No | No | No | No |
+| [*Automatic analysis (AutoScan)*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
+| [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes**[^12] | N/A | N/A | N/A | N/A | N/A |
 | [*Security engine customization*](https://docs.sonarqube.org/latest/analyzing-source-code/security-engine-custom-configuration/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Parallel processing of analysis reports*](https://docs.sonarqube.org/latest/instance-administration/compute-engine-performance/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
 | [*Security reports*](https://docs.sonarqube.org/latest/user-guide/security-reports/) | N/A | No | No | **Yes** | **Yes** | No |
@@ -47,3 +47,4 @@
 [^9]: SL is able to detect [Security hotspots in IntelliJ and VS Code](https://portal.productboard.com/sonarsource/4-sonarlint/c/205-report-security-hotspots-directly-in-your-ide) as of April 2023.
 [^10]: SQ EE Monorepo for [Azure DevOps](https://docs.sonarqube.org/latest/devops-platform-integration/azure-devops-integration/#preventing-pull-request-merges-when-the-quality-gate-fails), [GitLab](https://docs.sonarqube.org/latest/devops-platform-integration/gitlab-integration/#reporting-your-quality-gate-status-in-gitlab), [GitHub](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/#preventing-pull-request-merges-when-the-quality-gate-fails), [Bitbucket Server](https://docs.sonarqube.org/latest/devops-platform-integration/bitbucket-integration/bitbucket-server-integration/) and [Bitbucket Cloud](https://docs.sonarqube.org/latest/devops-platform-integration/bitbucket-integration/bitbucket-cloud-integration/)
 [^11]: [Documentation on SC Monorepo Support](https://docs.sonarcloud.io/advanced-setup/monorepo-support/)monor
+[^12]: Note that analysis takes place only when file is opened in the IDE. SonarLint does not perform any taint analysis but is able to display taint analysis when used in [Connected Mode with SonarQube](https://docs.sonarqube.org/latest/user-guide/sonarlint-connected-mode/).
