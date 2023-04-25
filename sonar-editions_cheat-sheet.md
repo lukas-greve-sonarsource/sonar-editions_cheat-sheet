@@ -8,8 +8,8 @@
 | *Detect security hotspots & advanced vulnerabilities* | Varies[^9] | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | *Code quality metrics & history* | No | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
 | *Secret detection* | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** | **Yes** |
-| [*PR analysis*](https://docs.sonarqube.org/latest/analyzing-source-code/pull-request-analysis/) | **Yes** | No | **Yes** | **Yes** | **Yes** | **Yes** |
-| *Monorepo support* | **Yes** | No | **Yes** | **Yes** | **Yes** | **Yes** |
+| [*PR analysis*](https://docs.sonarqube.org/latest/analyzing-source-code/pull-request-analysis/) | N/A | No | **Yes** | **Yes** | **Yes** | **Yes** |
+| *Monorepo support* | N/A | No | No | **Yes**[^10] | **Yes** | **Yes** |
 | [*DevOps platforms integration*](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/) | N/A | **Yes** | **Yes** | **Yes**[^4] | **Yes** | **Yes**[^5] |
 | [*Automatic analysis*](https://docs.sonarcloud.io/advanced-setup/automatic-analysis/) | No | No | No | No | No | **Yes** |
 | [*On-the-fly analysis*](https://www.sonarsource.com/products/sonarlint/features/) | **Yes** | No | No | No | No | No |
@@ -40,8 +40,10 @@
 [^2]: DE additional supported languages: [C](https://www.sonarsource.com/knowledge/languages/c/), [C++](https://www.sonarsource.com/knowledge/languages/cpp/), [C#](https://www.sonarsource.com/knowledge/languages/csharp/), [Objective-C](https://www.sonarsource.com/knowledge/languages/objective-c/), [Swift](https://www.sonarsource.com/knowledge/languages/swift/), [Advanced Business Application Programming (ABAP)](https://www.sonarsource.com/knowledge/languages/abap/),[Procedural Language for SQL (PL/SQL)](https://www.sonarsource.com/knowledge/languages/pl-sql/) & [Transact-SQL (T-SQL)](https://www.sonarsource.com/knowledge/languages/t-sql/)
 [^3]: EE Additional supported languages:, [COBOL](https://www.sonarsource.com/knowledge/languages/cobol/), [Apex](https://www.sonarsource.com/knowledge/languages/apex/), [Programming Language One (PL/I)](https://www.sonarsource.com/knowledge/languages/pli/), [Report Programming Generator (RPG)](https://www.sonarsource.com/knowledge/languages/rpg/) & [Visual Basic 6.0 (VB 6)](https://www.sonarsource.com/knowledge/languages/vb6/)
 [^4]: Multiple configurations per DevOps platform
-[^5]: Only SaaS version of DevOps platforms are supported
+[^5]: Only SaaS version of DevOps platforms are supported <!--- Don't understand what this means>
 [^6]: Two extra staging licenses
 [^7]: Three extra staging licenses
 [^8]: SC supports: DE-supported languages, [COBOL](https://www.sonarsource.com/knowledge/languages/cobol/) & [Apex](https://www.sonarsource.com/knowledge/languages/apex/)
 [^9]: SL is able to detect [Security hotspots in IntelliJ and VS Code](https://portal.productboard.com/sonarsource/4-sonarlint/c/205-report-security-hotspots-directly-in-your-ide) as of April 2023.
+[^10]: SQ EE Monorepo for [Azure DevOps](https://docs.sonarqube.org/latest/devops-platform-integration/azure-devops-integration/#preventing-pull-request-merges-when-the-quality-gate-fails), [GitLab](https://docs.sonarqube.org/latest/devops-platform-integration/gitlab-integration/#reporting-your-quality-gate-status-in-gitlab), [GitHub](https://docs.sonarqube.org/latest/devops-platform-integration/github-integration/#preventing-pull-request-merges-when-the-quality-gate-fails), [Bitbucket Server](https://docs.sonarqube.org/latest/devops-platform-integration/bitbucket-integration/bitbucket-server-integration/) and [Bitbucket Cloud](https://docs.sonarqube.org/latest/devops-platform-integration/bitbucket-integration/bitbucket-cloud-integration/)
+[^11]: [Documentation on SC Monorepo Support](https://docs.sonarcloud.io/advanced-setup/monorepo-support/)monor
