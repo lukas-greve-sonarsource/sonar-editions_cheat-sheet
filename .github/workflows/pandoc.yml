@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: pandoc/latex
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -29,6 +29,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           # Install requirements for Ubuntu
-          sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra pandoc
+          # sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra pandoc
           # Generate multiple files
           for extensions in odt html pdf ods; do pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.$extensions; done;
