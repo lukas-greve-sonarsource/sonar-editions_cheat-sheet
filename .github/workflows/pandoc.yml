@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Pandoc conversion
 
 # Controls when the workflow will run
 on:
@@ -15,20 +15,20 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
+  # This workflow contains two jobs
+  checkout_project:
     # The type of runner that the job will run on
-    runs-on: pandoc/latex
+    runs-on: ubuntu-22.04
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a set of commands using the runner's shell
-      - name: Run a multi-line script
-        run: |
-          # Install requirements for Ubuntu
-          # sudo apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra pandoc
-          # Generate multiple files
-          for extensions in odt html pdf ods; do pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.$extensions; done;
+  # This workflow contains a single job called "build"
+  convert_via_pandoc:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: docker://pandoc/latex:latest
+        with:
+          args: >-  # allows you to break string into multiple lines
+            for extensions in odt html pdf ods; do pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.$extensions; done;
