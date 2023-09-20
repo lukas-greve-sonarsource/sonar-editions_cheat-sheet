@@ -21,7 +21,7 @@
 | [*Regulatory reports*](https://docs.sonarqube.org/latest/project-administration/pdf-reports/#regulatory-reports) | N/A | No | No | **Yes** | **Yes** | No  |
 | [*Audit logs*](https://docs.sonarqube.org/latest/instance-administration/audit-logs/) | N/A | No | No | **Yes** | **Yes** | No |
 | [*Applications*](https://docs.sonarqube.org/latest/user-guide/applications/) | N/A | No | **Yes** | **Yes** | **Yes** | No |
-| [*Project migration*](https://docs.sonarqube.org/latest/instance-administration/project-move/#how-to-export) | N/A | No  | **Yes** | **Yes** | **Yes** | No |
+| [*Project migration*](https://docs.sonarqube.org/latest/instance-administration/project-move/) | N/A | No  | No | **Yes** | **Yes** | No |
 | [*LDAP & SAML authentication*](https://docs.sonarqube.org/latest/instance-administration/authentication/saml/overview/) | N/A | **Yes** | **Yes** | **Yes** | **Yes** | No |
 | [*Staging licenses*](https://docs.sonarqube.org/latest/instance-administration/license-administration/#staging-licenses) | N/A | No | No | **Yes**[^6] | **Yes**[^7] | No |
 | [*Plugins support*](https://docs.sonarqube.org/latest/setup-and-upgrade/install-a-plugin/) | N/A | **Yes** | **Yes** | **Yes** | **Yes** | No |
