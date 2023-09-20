@@ -31,4 +31,6 @@ jobs:
       - uses: docker://pandoc/latex:latest
         with:
           args: >-  # allows you to break string into multiple lines
-            for extensions in odt html pdf ods; do pandoc sonar-editions_cheat-sheet.md -o sonar-editions_cheat-sheet.$extensions; done;
+            --standalone
+            --output=sonar-editions_cheat-sheet.pdf
+            sonar-editions_cheat-sheet.md  
