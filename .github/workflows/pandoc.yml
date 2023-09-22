@@ -16,21 +16,29 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains two jobs
-  checkout_project:
+  convert_via_pandoc:
     # The type of runner that the job will run on
     runs-on: ubuntu-22.04
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-  # This workflow contains a single job called "build"
-  convert_via_pandoc:
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: docker://pandoc/latex:latest
+
+      - name: create file list
+        id: files_list
+        run: |
+          ls -all
+          echo "Lorem ipsum" > lorem_1.md  # create two example files
+          echo "dolor sit amet" > lorem_2.md
+          mkdir output  # create output dir
+          # this will also include README.md
+          echo "files=$(printf '"%s" ' *.md)" > $GITHUB_OUTPUT
+
+      - uses: docker://pandoc/latex:2.9
         with:
-          args: >-  # allows you to break string into multiple lines
-            --standalone
-            --output=sonar-editions_cheat-sheet.pdf
-            sonar-editions_cheat-sheet.md  
+          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
+          
+      - uses: actions/upload-artifact@v3
+        with:
+          name: output
+          path: output
