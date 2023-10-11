@@ -33,7 +33,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --output=output/Cheat-sheet-for-Sonar-products.pdf ${{ steps.files_list.outputs.files }}
+          args: -V geometry:margin=1in --output=output/Cheat-sheet-for-Sonar-products.pdf ${{ steps.files_list.outputs.files }}
           
       - uses: actions/upload-artifact@v3
         with:
